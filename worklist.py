@@ -115,8 +115,25 @@ def upload_worklist_to_orthanc(
     Returns:
         dict: Response from the Orthanc server
     """
-    # Convert the dataset to a binary representation
-    binary_data = pydicom.filewriter.dcmwrite_bytes(worklist_dataset)
+    # Save the dataset to a temporary file and read the binary data
+    import tempfile
+    import os
+    
+    # Create a temporary file
+    with tempfile.NamedTemporaryFile(delete=False, suffix='.dcm') as temp_file:
+        temp_path = temp_file.name
+    
+    # Save the dataset to the temporary file
+    worklist_dataset.is_little_endian = True
+    worklist_dataset.is_implicit_VR = False
+    worklist_dataset.save_as(temp_path)
+    
+    # Read the binary data from the temporary file
+    with open(temp_path, 'rb') as f:
+        binary_data = f.read()
+    
+    # Delete the temporary file
+    os.unlink(temp_path)
     
     # Authentication
     auth = None

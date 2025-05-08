@@ -1,0 +1,71 @@
+  <I>  szData=5880936|REFERRAL|1.2.840.113619.6.95.31.0.3.4.1.9284.13.5880936|Patient_Name|488390|19670416|M|1.73|78|1.2.840.113619.6.95.31.0.3.4.1.9284.13.5880936|REFERRAL|Cardiac Echo|2694675|L|Cardiac Echo|US|<OUMQHUS06<|20250430|095939|^|Cardiac Echo|5880936|<OUMQHUS06<|5880936
+  <I>  nValues = 24
+  <I>  Return key's id=0 arrOrdinals[ 0 ] is invalid (-1)
+  <I>  Return key's id=53 arrOrdinals[ 0 ] is invalid (-1)
+  <I>  ********** MODALITY WORKLIST ITEM ************
+  <I>  (0008,0005) "ISO_IR 100"
+  <I>  (0040,0100) ***** Begin of sequence ****
+  <I>  >(fffe,e000) ***** Begin of item ****
+  <I>  calling InsertIntoSet when iLevel == 1
+  <I>  >(0008,0060) "US"
+  <I>  calling InsertIntoSet when iLevel == 1
+  <I>  >(0040,0001) "OUMQHUS06"
+  <I>  calling InsertIntoSet when iLevel == 1
+  <I>  >(0040,0002) "20250430"
+  <I>  calling InsertIntoSet when iLevel == 1
+  <I>  >(0040,0003) "095939"
+  <I>  calling InsertIntoSet when iLevel == 1
+  <I>  >(0040,0006) "^"
+  <I>  calling InsertIntoSet when iLevel == 1
+  <I>  truncating value Cardiac Echo
+  <I>  >(0040,0007) "Cardiac Echo"
+  <I>  calling InsertIntoSet when iLevel == 1
+  <I>  >(0040,0008) ""
+  <I>  calling InsertIntoSet when iLevel == 1
+  <I>  >(0040,0009) "5880936"
+  <I>  calling InsertIntoSet when iLevel == 1
+  <I>  >(0040,0010) "OUMQHUS06"
+  <I>  >(fffe,e00d) ***** End of item ****
+  <I>  >(fffe,e0dd) ***** End of sequence ****
+  <I>  calling InsertIntoSet when iLevel == 0
+  <I>  (0008,0005) ""
+  <I>  calling InsertIntoSet when iLevel == 0
+  <I>  (0008,0050) "5880936"
+  <I>  calling InsertIntoSet when iLevel == 0
+  <I>  (0008,0090) "REFERRAL"
+  <I>  (0008,1110) ***** Begin of sequence ****
+  <I>  >(fffe,e000) ***** Begin of item ****
+  <I>  >(0008,1150) "1.2.840.10008.3.1.2.3.1"
+  <I>  >(0008,1155) "1.2.840.113619.6.95.31.0.3.4.1.9284.13.5880936"
+  <I>  >(fffe,e00d) ***** End of item ****
+  <I>  >(fffe,e0dd) ***** End of sequence ****
+  <I>  calling InsertIntoSet when iLevel == 0
+  <I>  (0010,0010) "Patient_Name"
+  <I>  calling InsertIntoSet when iLevel == 0
+  <I>  (0010,0020) "488390"
+  <I>  calling InsertIntoSet when iLevel == 0
+  <I>  (0010,0030) "19670416"
+  <I>  calling InsertIntoSet when iLevel == 0
+  <I>  (0010,0040) "M"
+  <I>  calling InsertIntoSet when iLevel == 0
+  <I>  (0010,1020) "1.73"
+  <I>  calling InsertIntoSet when iLevel == 0
+  <I>  (0010,1030) "78"
+  <I>  calling InsertIntoSet when iLevel == 0
+  <I>  (0020,000d) "1.2.840.113619.6.95.31.0.3.4.1.9284.13.5880936"
+  <I>  calling InsertIntoSet when iLevel == 0
+  <I>  (0032,1032) "REFERRAL"
+  <I>  calling InsertIntoSet when iLevel == 0
+  <I>  truncating value Cardiac Echo
+  <I>  (0032,1060) "Cardiac Echo"
+  <I>  (0032,1064) ***** Begin of sequence ****
+  <I>  >(fffe,e000) ***** Begin of item ****
+  <I>  >(0008,0100) "2694675"
+  <I>  >(0008,0102) "L"
+  <I>  truncating value Cardiac Echo
+  <I>  >(0008,0104) "Cardiac Echo"
+  <I>  >(fffe,e00d) ***** End of item ****
+  <I>  >(fffe,e0dd) ***** End of sequence ****
+  <I>  calling InsertIntoSet when iLevel == 0
+  <I>  (0040,1001) "5880936"
+  <I>  (0038,0300) ""
